@@ -13,7 +13,8 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage/>
   },
   {
-    path: "contact/:contactId"
+    path: "contact/:contactId",
+    element: <Contact/>
   }
 ])
 

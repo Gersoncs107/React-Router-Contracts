@@ -8,18 +8,18 @@ import Contact from './routes/contact'
 
 const router = createBrowserRouter([
   {
-    path:"/",
-    element: <Root/>,
-    errorElement: <ErrorPage/>,
+    path: "/",
+    element: <Root />,
+    errorElement: <ErrorPage />,
     loader: rootLoader,
-    children:[
+    children: [
       {
         path: "contacts/:contactId",
-        element: <Contact/>
-      }
-    ]
-  }  
-])
+        element: <Contact />,
+      },
+    ],
+  },
+]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

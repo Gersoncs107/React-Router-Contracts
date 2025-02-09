@@ -36,9 +36,9 @@ export default function Root() {
                 aria-live="polite"
               ></div>
             </form>
-            <form method="post">
-              <button type="submit">New</button>
-            </form>
+            <Form method="post">
+            <button type="submit">New</button>
+            </Form>
           </div>
           <nav>
           {contacts.length ? (

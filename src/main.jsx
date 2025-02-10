@@ -23,7 +23,8 @@ const router = createBrowserRouter([
       {
         path:"contacts/:contactId/edit",
         element: <Editcontact/>,
-        loader: contactLoader
+        loader: contactLoader,
+        action: editAction
       }
     ],
   },

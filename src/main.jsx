@@ -26,6 +26,10 @@ const router = createBrowserRouter([
         element: <Editcontact/>,
         loader: contactLoader,
         action: editAction
+      },
+      {
+        path: "contacts/:contactId/destroy",
+        action:destroyAction
       }
     ],
   },

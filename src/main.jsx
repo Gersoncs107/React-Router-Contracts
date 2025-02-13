@@ -6,6 +6,7 @@ import Root, {loader as rootLoader, action as rootAction, loader} from './routes
 import ErrorPage from './error-page'
 import Contact, {loader as contactLoader} from './routes/contact'
 import Editcontact, {action as editAction}from './routes/edit'
+import { action as destroyAction } from './routes/destroy'
 
 const router = createBrowserRouter([
   {

@@ -7,6 +7,7 @@ import ErrorPage from './error-page'
 import Contact, {loader as contactLoader} from './routes/contact'
 import Editcontact, {action as editAction}from './routes/edit'
 import { action as destroyAction } from './routes/destroy'
+import Index from './routes'
 
 const router = createBrowserRouter([
   {

@@ -10,6 +10,7 @@ export async function action({ request, params }) {
 
 export default function Editcontact() {
     const {contact} = useLoaderData()
+    const navigate = useNavigate()
 
     return (
         <Form method="post" id="contact-form">

@@ -15,7 +15,7 @@ export async function loader({ request }) {
 
 
 export default function Root() {
-  const {contacts} = useLoaderData()
+  const {contacts, q} = useLoaderData()
   const navigation = useNavigation()
     return (
       <>
